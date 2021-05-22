@@ -1,0 +1,17 @@
+- カーゴカルト・プログラミング
+- マルチプレクサ
+- ハンドラ
+- テンプレートエンジン
+- テンプレート
+- ListenAndServe()
+- PCI (payment card industry) Data Security Standard
+- ListenAndServeTLS
+ex) server.ListenAndServeTLS("cert.pem", "key.pem")
+- "cert.pem" : SSL証明書
+- "key.pem" : サーバー用秘密鍵
+- SSL (Secure Socket Layer)
+- →PKI (公開鍵基盤)を使用し、データの暗号化、2者間の認証を可能にするプロトコル
+- →改名されてTLS
+- →HTTPS=HTTP over SSL = SSL/TLSコネクション上のHTTP
+- X.509 = SSL証明書
+
