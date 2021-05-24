@@ -6,6 +6,7 @@ import (
 )
 
 // ローマ数字の文字列の合計値を整数型として出力
+// map型
 func RomanToInteger(s string) int {
 	summe := 0
 	i := 0
