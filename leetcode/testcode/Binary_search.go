@@ -1,6 +1,10 @@
 package testcode
 
-/* 二分探索 */
+/*
+二分探索: O(log n)時間
+線形探索: O/(n)時間
+*/
+
 // https://www.golangprograms.com/golang-program-for-implementation-of-binary-search.html
 func BinarySearch(needle int, haystack []int) bool {
 	low := 0                  // 最初
